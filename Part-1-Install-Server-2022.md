@@ -43,3 +43,24 @@ Downloaded Oracle VirtualBox 7.2.8 from the official site and installed it with 
 ![Windows 11 download](images/02-Windows-11-download.png)
 
 ---
+
+## 3. Creating the VM
+
+Created a new VM in VirtualBox with the following config:
+
+| Setting | Value |
+|---------|-------|
+| Name | Server 2022 |
+| Type | Microsoft Windows |
+| Version | Windows 2022 (64-bit) |
+| Disk | 50 GB, VDI, dynamically allocated |
+| CPU | 2 cores |
+| RAM | 4096 MB (4 GB) |
+
+**Resource reasoning:** my host only has 4 CPUs and 8 GB of RAM, so I split things roughly down the middle. 2 vCPUs and 4 GB gives Server 2022 enough room to install and update comfortably while keeping the host responsive. When the Windows 11 client gets added later, I'll drop Server 2022 to 2 GB so both VMs can run side by side without thrashing the host.
+
+![Creating the Windows Server VM](images/04-Creating-Windows-Server.png)
+
+![Processor - 2 CPUs](images/05-server-CPU.png)
+
+![Memory - 4096 MB](images/06-server-Memory.png)
