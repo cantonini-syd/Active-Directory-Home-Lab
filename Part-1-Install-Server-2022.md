@@ -64,3 +64,10 @@ Created a new VM in VirtualBox with the following config:
 ![Processor - 2 CPUs](images/05-server-CPU.png)
 
 ![Memory - 4096 MB](images/06-server-Memory.png)
+
+---
+
+## 4. Installing Windows Server 2022
+
+Mounted the ISO as the startup disk and booted the VM.
+
