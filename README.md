@@ -4,5 +4,5 @@ A comprehensive, 10-part technical guide to architecting and deploying a functio
 
    ## Parts
    - [Part 1 — Install Windows Server 2022](Part-1-Install-Server-2022.md)
-   - Part 2 — *coming soon*
+   - [Part 2 - Promote to Domain Controller](Part-2-Promote-Domain-Controller.md)
    - Part 3 — *coming soon*
