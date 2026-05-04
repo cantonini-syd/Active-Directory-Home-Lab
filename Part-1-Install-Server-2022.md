@@ -20,7 +20,7 @@ In this part, I set up the virtualization environment and installed Windows Serv
 - Download the Server 2022 and Windows 11 ISOs
 - Create the Server 2022 VM
 - Install Server 2022 with Desktop Experience
-- Initial configuration (admin password, time zone)
+- Initial configuration (admin password)
 
 ---
 
@@ -70,4 +70,44 @@ Created a new VM in VirtualBox with the following config:
 ## 4. Installing Windows Server 2022
 
 Mounted the ISO as the startup disk and booted the VM.
+
+![Mounting the Server 2022 ISO](images/07-iso-mount.png)
+
+Walked through Windows Setup. Key choice was the edition: I picked **Windows Server 2022 Standard Evaluation (Desktop Experience)** because I needed the GUI for hands-on AD admin work. The Server Core option would have left me in a command-line-only environment.
+
+![Language selection](images/08-language-select.png)
+
+![Edition - Desktop Experience selected](images/09-edition-desktop-experience.png)
+
+![License terms](images/10-license-terms.png)
+
+![Disk selection](images/11-disk-selection.png)
+
+![Installation in progress](images/12-install-progress.png)
+
+---
+
+## 5. Initial Configuration
+
+Set the Administrator password on first boot, then signed in (Right Ctrl + Del sends Ctrl-Alt-Del to the VM).
+
+![Set Administrator password](images/13-set-password.png)
+
+Server Manager opened automatically on first login, which confirms the install completed successfully and the server is ready to be configured.
+
+![Server Manager opens on first login](images/14-server-manager.png)
+
+---
+
+## Recap
+
+- Installed VirtualBox 7.2.8
+- Downloaded Server 2022 and Windows 11 ISOs
+- Built the Server 2022 VM (2 vCPU / 4 GB RAM / 50 GB disk)
+- Installed Server 2022 with Desktop Experience
+- Set the admin password and confirmed Server Manager loads on login
+
+## What's Next
+
+**Part 2:** rename the server, set a static IP, and prep it to be promoted to a Domain Controller.
 
