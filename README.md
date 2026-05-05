@@ -5,5 +5,5 @@ A comprehensive, 10-part technical guide to architecting and deploying a functio
    ## Parts
    - [Part 1 — Install Windows Server 2022](Part-1-Install-Server-2022.md)
    - [Part 2 - Promote to Domain Controller](Part-2-Promote-Domain-Controller.md)
-   - [Part 3 - Creating User Accounts in Active Directory](Part-3-Users.md)
+   - [Part 3 - Creating User Accounts in Active Directory](Part-3-Creating-New-Users.md)
    - Part 4 — *coming soon*
