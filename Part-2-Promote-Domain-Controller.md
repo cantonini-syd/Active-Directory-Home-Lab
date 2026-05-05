@@ -8,6 +8,14 @@ This is Part 2 of my Active Directory home lab project. With the Server 2022 VM 
 - Install the Active Directory Domain Services (AD DS) role
 - Promote the server to a Domain Controller
 - Create a new forest and domain
-- Verify the install with a few command-line checks
+- Verify the install with a command-line check
 
 ---
+
+## 1. Renaming the Server
+
+By default Windows assigns a random computer name like `WIN-0907BLUE`, which is useless in a real environment. Standard practice is to name servers based on location and role, so I went with **SYD-DC-01** (location code + role + number). Sydney is the location, DC means Domain Controller, and 01 is the server number.
+
+In Server Manager I went to **Local Server**, clicked the existing computer name, and used **Change** to rename it. A restart was required to apply the change.
+
+
