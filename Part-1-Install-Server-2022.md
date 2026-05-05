@@ -107,7 +107,3 @@ Server Manager opened automatically on first login, which confirms the install c
 - Installed Server 2022 with Desktop Experience
 - Set the admin password and confirmed Server Manager loads on login
 
-## What's Next
-
-**Part 2:** rename the server, set a static IP, and prep it to be promoted to a Domain Controller.
-
