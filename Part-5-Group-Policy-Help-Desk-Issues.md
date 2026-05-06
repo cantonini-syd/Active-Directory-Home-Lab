@@ -42,7 +42,7 @@ Useful to know on sight. When a user calls in saying they can't log in "after ho
 
 The **Account expires** option on the same tab is used for contractors and temporary staff. Setting it to a date in the past produces:
 
-> "Your account has expired. Please contact your system administrator."
+> "Your account has expired."
 
 Common ticket: a contractor's extension didn't get processed in time. Fix is to extend the expiry date or set it to **Never**.
 
