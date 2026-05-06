@@ -1,6 +1,6 @@
 # Active Directory Home Lab - Part 6: Shared Folders and NTFS Permissions
 
-This is Part 6 of my Active Directory home lab project. Up to now the lab has been about identity and policy. This part shifts to **file sharing**, which is the bread and butter of help desk tickets in any environment that runs a file server. The skills here are also where most beginners trip up, because share permissions and NTFS permissions are two separate things and people confuse them constantly.
+This is Part 6 of my Active Directory home lab project. Up to now the lab has been about identity and policy. This part shifts to **file sharing**.
 
 The goal: create a shared folder, give a specific user access to a subfolder only, log in as that user to test it, map it as a network drive, and then redo it the proper way using a security group.
 
