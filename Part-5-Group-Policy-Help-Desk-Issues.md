@@ -75,15 +75,14 @@ Inside **Password Policy**, I set:
 
 | Setting | Value | Reason |
 |---------|-------|--------|
-| Maximum password age | 90 days | Balance between security and user pain. 30 days is too aggressive for a lab, 120+ is too lax |
+| Maximum password age | 90 days | Balance between security and user pain. |
 | Minimum password age | 1 day | Stops users immediately cycling through their password history to keep the same password |
-| Minimum password length | 12 characters | Aligns with current audit recommendations (NIST and ACSC both push for longer minimums) |
-| Password history | 24 passwords | Default, prevents reuse of recent passwords |
+| Minimum password length | 12 characters | Aligns with current audit recommendations |
 | Complexity requirements | Enabled | Default, requires upper, lower, digit, symbol |
 
 ![Password policy settings](images/41-password-policy.png)
 
-Real-world password policy is usually dictated by the company's compliance requirements (ISO 27001, Essential Eight, etc.). For the lab, these are sensible defaults.
+Real-world password policy is usually dictated by the company's compliance requirements.
 
 ---
 
