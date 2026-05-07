@@ -1,4 +1,4 @@
-Active Directory Home Lab - Part 7: Organisational Units and Targeted Group Policy
+# Active Directory Home Lab - Part 7: Organisational Units and Targeted Group Policy
 
 This is Part 7 of my Active Directory home lab project. Up until now all my users have been sitting in the default Users container, which works but isn't how real environments are structured. This part fixes that by building an Organisational Unit (OU) structure and using it to apply a Group Policy that only affects a specific group of users, not the entire domain.
 
