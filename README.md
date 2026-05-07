@@ -9,4 +9,5 @@ A multi-part technical guide to architecting and deploying a functional Active D
    - [Part 4 - Join Windows 11 to Domain & RDP](Part-4-Join-Windows-11-to-Domain.md)
    - [Part 5: Group Policy and Replicating Help Desk Issues](Part-5-Group-Policy-Help-Desk-Issues.md)
    - [Part 6 - Shared Folders and Permissions](Part-6-Shared-Folders-and-Permissions.md)
-   - Part 7 - coming soon 
+   - [Part 7 - OUs and Targeted GPO](Part-7-OUs-and-Targeted-GPO.md)
+   - Part 8 - coming soon
