@@ -74,7 +74,7 @@ Right-clicked, **New > Mapped Drive**, and configured:
 | Label as | Lab Share |
 | Drive Letter | Use - Z |
 
-This automatically maps the network drive from Part 6 every time a user in the SYD OU signs in. No more asking users to manually map drives.
+This automatically maps the network drive from Part 6 every time a user in the SYD OU signs in. 
 
 ![Drive map configuration](images/55-drive-map-config.png)
 
