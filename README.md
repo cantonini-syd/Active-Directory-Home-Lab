@@ -6,7 +6,7 @@ A multi-part home lab project documenting the design and deployment of a functio
 
 | Component | Detail |
 |-----------|--------|
-| Hypervisor | Oracle VirtualBox 7.1.4 |
+| Hypervisor | Oracle VirtualBox 7.2.8 |
 | Host RAM | 8 GB |
 | Host CPUs | 4 cores |
 | Domain Controller | Windows Server 2022 (Desktop Experience) — `SYD-DC-01` |
