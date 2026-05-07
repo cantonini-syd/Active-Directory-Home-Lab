@@ -1,6 +1,6 @@
 # Active Directory Home Lab
 
-A multi-part home lab project documenting the design and deployment of a functional Active Directory environment from scratch. Built end-to-end on a single laptop using Oracle VirtualBox, the lab covers the core skills expected of an entry-level IT support or junior systems administrator role: identity management, Group Policy, file share permissions, networking, and PowerShell automation.
+A multi-part home lab project documenting the design and deployment of a functional Active Directory environment from scratch. Built end-to-end on a single laptop using Oracle VirtualBox, the lab covers the core skills including identity management, Group Policy, file share permissions, networking, and PowerShell automation.
 
 ## Lab Environment
 
